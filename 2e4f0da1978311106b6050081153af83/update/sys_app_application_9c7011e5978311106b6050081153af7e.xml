@@ -14,13 +14,13 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c7011e5978311106b6050081153af7e</sys_id>
-        <sys_name>ServiceNow Scripts</sys_name>
+        <sys_name>Developer Library</sys_name>
         <sys_overrides/>
-        <sys_package display_value="ServiceNow Scripts" source="x_803922_scripts">2e4f0da1978311106b6050081153af83</sys_package>
+        <sys_package display_value="Developer Library" source="x_803922_scripts">2e4f0da1978311106b6050081153af83</sys_package>
         <sys_policy/>
-        <sys_scope display_value="ServiceNow Scripts">2e4f0da1978311106b6050081153af83</sys_scope>
+        <sys_scope display_value="Developer Library">2e4f0da1978311106b6050081153af83</sys_scope>
         <sys_update_name>sys_app_application_9c7011e5978311106b6050081153af7e</sys_update_name>
-        <title>ServiceNow Scripts</title>
+        <title>Developer Library</title>
         <view_name/>
     </sys_app_application>
 </record_update>
