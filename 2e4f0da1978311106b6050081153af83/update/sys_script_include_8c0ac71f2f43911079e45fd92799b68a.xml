@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_803922_scripts.UtilAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>UtilAjax</name>
+        <script><![CDATA[var UtilAjax = Class.create();
+UtilAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    type: 'UtilAjax',
+	
+	getChoices: function(){
+		var tableName = this.getParameter( 'sysparm_table_name' ),
+			fieldName = this.getParameter( 'sysparm_field_name' );
+		
+		return JSON.stringify(
+			new Util().getChoices( tableName, fieldName )
+		);
+			
+	},
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>john.dahl</sys_created_by>
+        <sys_created_on>2022-11-14 12:06:04</sys_created_on>
+        <sys_id>8c0ac71f2f43911079e45fd92799b68a</sys_id>
+        <sys_name>UtilAjax</sys_name>
+        <sys_package display_value="Developer Library" source="x_803922_scripts">2e4f0da1978311106b6050081153af83</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Developer Library">2e4f0da1978311106b6050081153af83</sys_scope>
+        <sys_update_name>sys_script_include_8c0ac71f2f43911079e45fd92799b68a</sys_update_name>
+    </sys_script_include>
+</record_update>
